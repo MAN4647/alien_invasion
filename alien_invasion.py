@@ -28,7 +28,7 @@ class AlienInvasion:
                 sys.exit()
 
     def _update_screen(self):
-        # Redraw the screen during each pass through the loop
+        """Update images on the screen, and flip to the new screen."""
         self.screen.fill(self.settings.bg_color)
         self.ship.blitme()
 
